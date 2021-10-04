@@ -61,15 +61,13 @@ p.enlarge span { color: #000 }
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
 
-
-@media screen and (min-width:400px){
-   .yui-gf .yui-u{width:80.2%;}
-   .yui-gf div.first{width:12.3%;}
-   #inner { padding: 10px 80px; margin: 80px auto; background: papayawhip; border: solid #666; border-width: 8px 0 2px 0; }
+@media screen and (max-width: 900px) {
+   .col {
+      width: 50%;
+   }
 }
-
-@media screen and (max-width:600px){
-   .yui-gf .yui-u{width:80.2%;}
-   .yui-gf div.first{width:12.3%;}
-   #inner { padding: 10px 80px; margin: 80px auto; background: papayawhip; border: solid #666; border-width: 8px 0 2px 0; }
+@media screen and (max-width: 600px) {
+   .col {
+      width: 100%;
+   }
 }
