@@ -61,13 +61,18 @@ p.enlarge span { color: #000 }
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
 
-@media screen and (max-width: 900px) {
-   .col {
-      width: 50%;
+@media screen and (min-width: 500px) {
+   #inner { padding: 10px 80px; margin: 80px auto; background: papayawhip; border: solid #666; border-width: 8px 0 2px 0; }
+   .yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+   div{
+      width: 400px;
    }
 }
-@media screen and (max-width: 600px) {
-   .col {
-      width: 100%;
+
+@media screen and (min-width: 800px) {
+    #inner { padding: 10px 80px; margin: 80px auto; background: papayawhip; border: solid #666; border-width: 8px 0 2px 0; }
+   .yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+   div{
+      width: 400px;
    }
 }
