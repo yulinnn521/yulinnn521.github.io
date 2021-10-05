@@ -74,5 +74,36 @@ th {
     padding: 0.4rem;
 }
 
+@media screen and (min-width:950px){
+    .header-left {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    table {
+        border: 2px solid grey;
+        margin: 1rem 0 1rem 0;
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+}
 
+@media screen and (max-width:1440px) {
+    .header-left {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    table {
+        border: 2px solid grey;
+        margin: 1rem 0 1rem 0;
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+}
 
