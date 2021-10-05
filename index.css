@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: peachpuff;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+
+.title {
+    margin: 0;
+    font-weight: 400;
+    font-size: large;
+    color: steelblue;
+    text-decoration: underline;
+    text-shadow: 2px 2px;
+}
+
+.name {
+    margin: 0;
+    font-weight: 400;
+    color: royalblue;
+}
+p.ex1 {
+    direction: rtl;
+    color:black;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: coral;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: large;
+}
+
+li a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: white;
+    color: blue;
+}
+
+
+@media screen and (min-width:360px){
+    .title {
+        margin: 0;
+        font-weight: 400;
+        font-size: medium;
+        color: steelblue;
+        text-decoration: underline;
+        text-shadow: 2px 2px;
+    }
+
+    .name {
+        margin: 0;
+        font-weight: 400;
+        color: royalblue;
+    }
+    p.ex1 {
+        direction: rtl;
+        color:black;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .title {
+        margin: 0;
+        font-weight: 400;
+        font-size: medium;
+        color: steelblue;
+        text-decoration: underline;
+        text-shadow: 2px 2px;
+    }
+
+    .name {
+        margin: 0;
+        font-weight: 400;
+        color: royalblue;
+    }
+    p.ex1 {
+        direction: rtl;
+        color:black;
+    }
+
+}
