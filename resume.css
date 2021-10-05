@@ -90,7 +90,7 @@ th {
     }
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1200px) {
     .header-left {
         display: grid;
         justify-items: center;
