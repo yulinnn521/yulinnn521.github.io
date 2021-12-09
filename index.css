@@ -5,6 +5,9 @@ body {
     font-family: "Comic Sans MS", sans-serif;
 }
 
+.center{
+    padding-left: 60px;
+}
 
 .title {
     margin: 0;
@@ -13,16 +16,20 @@ body {
     color: steelblue;
     text-decoration: underline;
     text-shadow: 2px 2px;
+    padding-left: 100px;
 }
 
 .name {
     margin: 0;
     font-weight: 400;
     color: royalblue;
+    padding-left: 5px;
 }
 p.ex1 {
     direction: rtl;
     color:black;
+    padding-top: 40px;
+    padding-right: 40px;
 }
 
 ol {
@@ -39,7 +46,7 @@ ol {
 li a {
     display: block;
     color:black;
-    padding: 8px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
 
