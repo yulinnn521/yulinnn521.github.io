@@ -9,6 +9,10 @@ body {
     padding-left: 60px;
 }
 
+h3{
+    padding: 15px;
+}
+
 .title {
     margin: 0;
     font-weight: 400;
@@ -48,6 +52,7 @@ li a {
     color:black;
     padding: 10px 16px;
     text-decoration: none;
+    padding-left: 30px;
 }
 
 /* Change the link color on hover */
