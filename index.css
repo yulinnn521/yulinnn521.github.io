@@ -39,7 +39,7 @@ p.ex1 {
 ol {
     margin: 0;
     padding: 0;
-    width: 15%;
+    width: 20%;
     background-color: coral;
     position: fixed;
     height: 100%;
@@ -62,45 +62,48 @@ li a:hover {
 }
 
 
-@media screen and (min-width:360px){
-    .title {
+@media screen and (min-width:450px){
+    body{
+        width:auto;
+    }
+    ol {
         margin: 0;
-        font-weight: 400;
-        font-size: medium;
-        color: steelblue;
-        text-decoration: underline;
-        text-shadow: 2px 2px;
+        padding: 0;
+        width: 20%;
+        background-color: coral;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        font-size: large;
+    }
+    .center{
+        padding-left: 60px;
     }
 
-    .name {
-        margin: 0;
-        font-weight: 400;
-        color: royalblue;
-    }
-    p.ex1 {
-        direction: rtl;
-        color:black;
+    h3{
+        padding: 15px;
     }
 }
 
 @media screen and (max-width:1200px) {
-    .title {
+    body{
+        width:auto;
+    }
+    ol {
         margin: 0;
-        font-weight: 400;
-        font-size: medium;
-        color: steelblue;
-        text-decoration: underline;
-        text-shadow: 2px 2px;
+        padding: 0;
+        width: 20%;
+        background-color: coral;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        font-size: large;
+    }
+    .center{
+        padding-left: 60px;
     }
 
-    .name {
-        margin: 0;
-        font-weight: 400;
-        color: royalblue;
+    h3{
+        padding: 15px;
     }
-    p.ex1 {
-        direction: rtl;
-        color:black;
-    }
-
 }
