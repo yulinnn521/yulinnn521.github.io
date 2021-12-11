@@ -62,7 +62,7 @@ li a:hover {
 }
 
 
-@media screen and (min-width:450px){
+@media screen and (min-width:360px){
     body{
         width:auto;
     }
@@ -82,10 +82,17 @@ li a:hover {
 
     h3{
         padding: 15px;
+    }
+    li a {
+        display: block;
+        color:black;
+        padding: 10px 16px;
+        text-decoration: none;
+        padding-left: 30px;
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:800px) {
     body{
         width:auto;
     }
@@ -105,5 +112,12 @@ li a:hover {
 
     h3{
         padding: 15px;
+    }
+    li a {
+        display: block;
+        color:black;
+        padding: 10px 16px;
+        text-decoration: none;
+        padding-left: 10px;
     }
 }
