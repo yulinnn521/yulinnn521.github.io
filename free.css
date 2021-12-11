@@ -1,8 +1,8 @@
 body{
     background-image: url("https://w.wallha.com/ws/1/MYBXwnue.png");
-    font-family: Mishafi;
+    font-family: "Courier New";
     font-size: large;
-    padding-left: 25em;
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,7 +20,7 @@ ol li {
 
 ol li:before {
     content: "";
-    position: absolute;
+    position: center;
     top: 12px;
     left: 5px;
     display: inline-block;
