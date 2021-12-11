@@ -6,11 +6,42 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+ul {
+    list-style-type: "*";
+    margin: 0;
+    padding-top: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav1 {
+    float: left;
+}
+.nav2{
+    float: left;
+}
+.nav3{
+    float: left;
+}
+
+
+.nav1 a:hover:not(.active) {
+    background-color: skyblue;
+}
+.nav2 a:hover:not(.active) {
+    background-color: orange;
+}
+
+.nav3 a:hover:not(.active) {
+    background-color: burlywood;
+}
+
 h3{
     font-family: Chalkboard;
     font-size: 40px;
    text-decoration: overline underline;
 }
+
 ol li {
     list-style: none;
     padding-left: 50px;
