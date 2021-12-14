@@ -69,6 +69,18 @@ li a {
 
 @media screen and (max-width: 450px) {
     body {
-        width: auto;
+       padding-left: 5em;
     }
+    li a {
+        padding: 20px 10px;
+    }
+}
+@media screen and (max-width:800px) {
+    body {
+        padding-left: 15em;
+    }
+    li a {
+        padding: 10px 5px;
+    }
+
 }
