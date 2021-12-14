@@ -23,9 +23,29 @@
     <li><a href="https://www.freecodecamp.org/certification/linnn521/back-end-development-and-apis">FreeCodeCamp certificate</a></li>
 </ol>
 </section>
+<div class="right-col">
+    <p>Listen to the music</p>
+    <img src="play.png" id="icon">
+    <audio id="mySong">
+        <source src="mysong.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var mySong= document.getElementById("mySong");
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){
+            if(mySong.paused){
+                mySong.play();
+                icon.src = "pause.png";
+            }else{
+                mySong.pause();
+                icon.src="play.png";
+            }
+        }
+    </script>
+</div>
 <div style="margin-left:25%;padding:1px 16px;height:1000px;">
     <div class="center">
-    <img src="https://images6.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg" width="600px" height="300px" >
+    <img src="https://images6.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg" id="img"  >
     </div>
 
     <div class="title">

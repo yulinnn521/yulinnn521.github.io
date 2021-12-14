@@ -5,6 +5,10 @@ body {
     font-family: "Comic Sans MS", sans-serif;
 }
 
+#img{
+    width:700px;
+    height:400px;
+}
 .center{
     padding-left: 60px;
 }
@@ -61,6 +65,21 @@ li a:hover {
     color: blue;
 }
 
+.right-col{
+    float: right;
+    margin-right: 4%;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+}
+.right-col p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#icon{
+    width: 60px;
+    cursor: pointer;
+}
 
 @media screen and (min-width:360px){
     body{
@@ -90,7 +109,13 @@ li a:hover {
         text-decoration: none;
         padding-left: 30px;
     }
+
+    #img{
+        width:700px;
+        height:400px;
+    }
 }
+
 
 @media screen and (max-width:800px) {
     body{
@@ -119,5 +144,9 @@ li a:hover {
         padding: 10px 16px;
         text-decoration: none;
         padding-left: 10px;
+    }
+    #img{
+        width:400px;
+        height:200px;
     }
 }
