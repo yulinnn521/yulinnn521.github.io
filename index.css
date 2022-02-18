@@ -14,7 +14,13 @@ body {
 }
 
 h3{
-    padding: 15px;
+    padding-left: 15px;
+    padding-top: initial;
+    padding-bottom: inherit;
+}
+
+h4{
+    padding-left: 15px;
 }
 
 .title {
@@ -100,7 +106,13 @@ li a:hover {
     }
 
     h3{
-        padding: 15px;
+        padding-left: 15px;
+        padding-top: initial;
+        padding-bottom: inherit;
+    }
+
+    h4{
+        padding-left: 15px;
     }
     li a {
         display: block;
